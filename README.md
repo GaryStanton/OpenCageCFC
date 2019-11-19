@@ -51,7 +51,7 @@ The query method accepts the following parameters:
 | parameter | type | description |
 | --- | --- | --- |
 |`q`                | string | The query string to be geocoded - a latitude, longitude or a placename/address.<br> When reverse geocoding the query should be in latitude, longitude order in decimal format. For example: 51.952659, 7.632473. There is no reason to send more than six or seven digits past the decimal as that then gets down to the precision of a centimeter. If impossible coordinates are supplied you will receive a 400 invalid coordinates as the response code in the status section of the response.|
-|`responseFormat`   | string | The response format (json¦geojson¦xml¦map). Defaults to json.
+|`responseFormat`   | string | The response format (json ¦ geojson ¦ xml ¦ map). Defaults to json.
 |`abbrv`            | boolean | If true, attempt to abbreviate and shorten the formatted string we return.|
 |`add_request`      | boolean | If true, the various request parameters are added to the response for ease of debugging.|
 |`bounds`           | string | Used only for forward geocoding. This value will restrict the possible results to a defined bounding box.<br> The value of the bounds parameter should be specified as two coordinate points forming the south-west and north-east corners of a bounding box. For example: bounds=-0.563160,51.280430,0.278970,51.683979 (min lon, min lat, max lon, max lat). <br> Values that are not valid coordinates are ignored. |
