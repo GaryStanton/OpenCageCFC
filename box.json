@@ -2,7 +2,7 @@
     "name":"OpenCage Geocoder API",
     "version":"1.0.0",
     "author":"Gary Stanton",
-    "location":"GaryStanton/OpenCageCFC",
+    "location":"GaryStanton/OpenCageCFC#v1.0.0",
     "homepage":"http://www.simianenterprises.co.uk/",
     "repository":{
         "type":"git",
