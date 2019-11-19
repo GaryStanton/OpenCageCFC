@@ -48,6 +48,7 @@ data = opencage.query(
 ```
 
 The query method accepts the following parameters:
+
 | parameter |  |
 | --- | --- |
 |`q`                | The query string to be geocoded - a latitude, longitude or a placename/address.<br> When reverse geocoding the query should be in latitude, longitude order in decimal format. For example: 51.952659, 7.632473. There is no reason to send more than six or seven digits past the decimal as that then gets down to the precision of a centimeter. If impossible coordinates are supplied you will receive a 400 invalid coordinates as the response code in the status section of the response.|
