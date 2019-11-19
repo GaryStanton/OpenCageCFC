@@ -1,0 +1,21 @@
+{
+    "name":"OpenCage Geocoder API",
+    "version":"0.1",
+    "author":"Gary Stanton",
+    "location":"GaryStanton/OpenCageCFC#v0.1",
+    "homepage":"http://www.simianenterprises.co.uk/",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/GaryStanton/OpenCageCFC"
+    },
+    "bugs":"https://github.com/GaryStanton/OpenCageCFC/issues",
+    "slug":"OpenCageCFC",
+    "shortDescription":"This module provides a wrapper for the OpenCage Geocoder API",
+    "type":"modules",
+    "keywords":"OpenCage Geocode",
+    "scripts":{
+        "postVersion":"package set location='GaryStanton/OpenCage#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push --follow-tags"
+    }
+}
