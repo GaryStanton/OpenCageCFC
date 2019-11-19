@@ -1,10 +1,9 @@
 # OpenCage CFC
 
 
-OpenCageCFC provides a wrapper for the OpenCage Geocoder API
-The opencage API is a commercial product with a generous free tier. 
-Obtain an API key from https://opencagedata.com/users/sign_up.
-
+OpenCageCFC provides a wrapper for the OpenCage Geocoder API.  
+The opencage API is a commercial product with a generous free tier.  
+Obtain an API key from https://opencagedata.com/users/sign_up.  
 
 ## Installation
 ```js
